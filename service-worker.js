@@ -1,5 +1,5 @@
-// 2026-05-14 21:18:00;來自厲害的Chatgpt v4.6-PWA2
-const CACHE_NAME = 'castle100-pwa-v4-6-pwa2';
+// 2026-05-14 21:30:00;來自厲害的Chatgpt v4.6-PWA3
+const CACHE_NAME = 'castle100-pwa-v4-6-pwa3';
 const CORE_ASSETS = [
   './',
   './index.html',
