@@ -21,3 +21,6 @@
 ## v4.6-PWA3 修正
 - 修正 v4.6-PWA1 因 PWA 標籤誤插入匯出 HTML 模板，造成 JavaScript 語法中斷、所有功能鍵失靈的問題。
 - 更新 service worker cache 名稱，部署後會清掉舊版快取。
+
+
+- v4：桌面圖示改為透明背景，並移除 manifest 的 maskable 圖示設定，避免系統優先使用有底色圖示。
