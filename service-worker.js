@@ -1,12 +1,13 @@
-// 2026-05-14 21:30:00;來自厲害的Chatgpt v4.6-PWA4
-const CACHE_NAME = 'castle100-pwa-v4-6-pwa4';
+// 2026-05-14 21:30:00;來自厲害的Chatgpt v4.6-PWA5
+const CACHE_NAME = 'castle100-pwa-v4-6-pwa5-transparent-icon-url';
 const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/apple-touch-icon.png'
+  './icons/icon-transparent-v5-192.png',
+  './icons/icon-transparent-v5-512.png',
+  './icons/apple-touch-transparent-v5.png',
+  './icons/favicon-transparent-v5-32.png'
 ];
 
 self.addEventListener('install', (event) => {

@@ -24,3 +24,10 @@
 
 
 - v4：桌面圖示改為透明背景，並移除 manifest 的 maskable 圖示設定，避免系統優先使用有底色圖示。
+
+
+## v5 透明圖示修正
+- 圖示檔名全部改成新的 `*-transparent-v5-*`，避免瀏覽器或 PWA 安裝快取繼續抓舊圖。
+- manifest 移除 maskable icon，只保留透明背景 `purpose:any`。
+- zip 內已移除舊的 `icon-192.png`、`icon-512.png`、`maskable-*`。
+- 若手機桌面仍顯示底色，請先移除舊 PWA，再清除該網站資料後重新安裝。
